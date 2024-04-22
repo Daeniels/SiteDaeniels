@@ -1,0 +1,58 @@
+*{
+margin: 0;
+padding:0;
+}
+.cabeçalho{
+    background-color: #193b0c;
+    color: #69ff8a;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0;
+}
+.cabeçalho-imagem{
+width: 20% ;
+}
+.cabeçalho-lista-item{
+display: inline-block;
+font-size: 500px;
+margin: 0 20px;
+}
+.panela-imagem{
+width: 20%;
+}
+.panela{
+    background-image: linear-gradient(#193b0c,#82fc9c );
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: normal;
+    padding: 50px 0;
+}
+.panela-div{
+    width: 70%;
+}
+.panelada-1{
+    padding: 10px 0;
+}
+.panelada-2{
+    padding: 10px 0;
+}
+.panelada-3{
+    padding: 10px 0;
+}
+.pizza1{
+    width: 24px;
+}
+.pizza-div{
+    text-align: center;
+}
+.panela-titulo{
+    text-align: center;
+    padding: 40px 0;
+}
+.pizza-todas{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+    
